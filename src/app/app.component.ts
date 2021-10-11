@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'global-company';
+  statusClass = 'not-active';
+  hideMenu(){
+    this.statusClass = 'not-active';
+    console.log('radi');
+
+  }
+  showMenu(){
+    this.statusClass = 'active';
+    console.log('radi');
+
+
+  }
 }
