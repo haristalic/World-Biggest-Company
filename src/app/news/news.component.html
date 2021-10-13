@@ -1,1 +1,15 @@
-<p>news works!</p>
+<div style="background-color: black;">
+<app-navigation></app-navigation>
+</div>
+<section class="news">
+    <div class="row flex-wrap" >
+
+    <div class="news-col"*ngFor="let article of topHeadingDisplay">
+            <img src={{article.urlToImage}}>
+            <h3>{{article.title}}}</h3>
+            <p>{{article.content}}</p>
+            <button></button>
+            <a href={{article.url}}  target="_blank">Read More</a>
+</div>
+</div>
+</section>

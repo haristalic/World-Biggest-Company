@@ -35,7 +35,9 @@ p {
   display: flex;
   justify-content: space-between;
 }
-
+.flex-wrap{
+  flex-wrap: wrap;
+}
 h3 {
   text-align: center;
   font-weight: 600;
@@ -47,5 +49,6 @@ h3 {
     flex-direction: column;
   }
 }
+
 
 
